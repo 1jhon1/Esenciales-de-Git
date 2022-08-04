@@ -1,5 +1,5 @@
-$btn = document.getElementById("btn");
+var btn1 = document.getElementById("btn");
 
-$btn.addEvenlistener("click",e=>{
+btn1.addEventListener("click",e =>{
     alert("Felicidades hemos aprendido lo esencail de Git")
 })
